@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "gRPC\GrpcGre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "gRPC\GrpcGreeterClient\GrpcGreeterClient.csproj", "{640BF20C-AD6E-4B37-B8BB-6E2448882563}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flurl.Http.Tests", "Flurl.Http.Tests\Flurl.Http.Tests.csproj", "{B98EB4F3-17A7-4C32-9ADA-228C39CC2452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chet.QuartzNet.UI.Test", "Chet.QuartzNet.UI.Test\Chet.QuartzNet.UI.Test.csproj", "{1C532BBD-9743-2A3E-D23E-89E071A3A306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{640BF20C-AD6E-4B37-B8BB-6E2448882563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640BF20C-AD6E-4B37-B8BB-6E2448882563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640BF20C-AD6E-4B37-B8BB-6E2448882563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98EB4F3-17A7-4C32-9ADA-228C39CC2452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98EB4F3-17A7-4C32-9ADA-228C39CC2452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98EB4F3-17A7-4C32-9ADA-228C39CC2452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98EB4F3-17A7-4C32-9ADA-228C39CC2452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
