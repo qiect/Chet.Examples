@@ -13,8 +13,9 @@ builder.Services.AddControllers();
 builder.Services.AddQuartzUI();
 
 // 从配置文件中添加数据库支持（SQL Server）
-builder.Services.AddQuartzUIDatabaseFromConfiguration(builder.Configuration);
+//builder.Services.AddQuartzUIDatabaseFromConfiguration(builder.Configuration);
 
+builder.Services.AddQuartzClassJobs();
 // 添加Basic认证服务
 builder.Services.AddQuartzUIBasicAuthentication(builder.Configuration);
 
@@ -25,11 +26,11 @@ var app = builder.Build();
 app.UseAuthorization();
 
 // 执行数据库迁移
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<QuartzDbContext>();
-    dbContext.Database.Migrate();
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var dbContext = scope.ServiceProvider.GetRequiredService<QuartzDbContext>();
+//    dbContext.Database.Migrate();
+//}
 
 // 启用Basic认证中间件
 app.UseQuartzUIBasicAuthorized();

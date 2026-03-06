@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "JobName": "TestClassJob",
+    "JobGroup": "ExampleGroup",
+    "TriggerName": "TestClassJob_Trigger",
+    "TriggerGroup": "DEFAULT",
+    "CronExpression": "0/10 * * * * ?",
+    "Description": "\u6D4B\u8BD5ClassJob\uFF0C\u6BCF10\u79D2\u6267\u884C\u4E00\u6B21",
+    "JobTypeEnum": "DLL",
+    "JobType": "Chet.QuartzNet.UI.Test.Jobs.TestClassJob, Chet.QuartzNet.UI.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "JobData": null,
+    "ApiMethod": "GET",
+    "ApiHeaders": null,
+    "ApiBody": null,
+    "ApiTimeout": 30000,
+    "SkipSslValidation": false,
+    "StartTime": null,
+    "EndTime": null,
+    "Status": 0,
+    "IsEnabled": true,
+    "NextRunTime": null,
+    "PreviousRunTime": null,
+    "Remark": null,
+    "CreateTime": "2025-11-19T15:00:07.2924402+08:00",
+    "UpdateTime": null,
+    "CreateBy": null,
+    "UpdateBy": null
+  }
+]

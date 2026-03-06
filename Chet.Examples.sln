@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flurl.Http.Tests", "Flurl.H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chet.QuartzNet.UI.Test", "Chet.QuartzNet.UI.Test\Chet.QuartzNet.UI.Test.csproj", "{1C532BBD-9743-2A3E-D23E-89E071A3A306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitFixedWidthTxt", "SplitFixedWidthTxt\SplitFixedWidthTxt.csproj", "{D19308BF-686A-4011-B25A-F79069638C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C532BBD-9743-2A3E-D23E-89E071A3A306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19308BF-686A-4011-B25A-F79069638C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19308BF-686A-4011-B25A-F79069638C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19308BF-686A-4011-B25A-F79069638C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19308BF-686A-4011-B25A-F79069638C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
